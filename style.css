@@ -1,0 +1,22 @@
+@charset "UTF-8"
+
+
+	body {
+		background-color: #cecece;
+		
+	}
+
+	div#num{
+		font-family: 'Inconsolata', monospace;
+		color: white;
+		font-weight: bold;
+		height: 150px;
+		width: 175px;
+		padding: 20px 20px 20px 20px;
+		background-color: #0440a0;
+		position: absolute;
+		display: block;
+		margin: 230px 0px 0px 550px;
+		box-shadow: 5px 5px 8px black;
+
+	}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Calculadora Simples</title>
+
+
+</head>
+
+<body>
+
+<div id="num">
+
+	<form>
+	Valor1:<input type="text" id="v1">
+	Valor2:<input type="text" id="v2">
+	Operador:
+	<select id="Operator">
+		<option value="add">Adicionar</option>
+		<option value="min">Subtrair</option>
+		<option value="div">Dividir</option>
+		<option value="mul">Muliplicar</option>
+	</select>
+		<button type="button" onclick="ladora()" id="botao">Calcular</button>
+
+	</form>
+
+<p id="results"></p>
+
+</div>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
