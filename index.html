@@ -2,32 +2,32 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<title>Calculadora Simples</title>
 
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+	
+
+	<title>Calculadora Simples 2</title>
 
 </head>
 
 <body>
 
 <div id="num">
-
-	<form>
-	Valor1:<input type="text" id="v1">
-	Valor2:<input type="text" id="v2">
-	Operador:
-	<select id="Operator">
-		<option value="add">Adicionar</option>
-		<option value="min">Subtrair</option>
-		<option value="div">Dividir</option>
-		<option value="mul">Muliplicar</option>
-	</select>
-		<button type="button" onclick="ladora()" id="botao">Calcular</button>
-
-	</form>
-
-<p id="results"></p>
+	
+		<p>Valor1:</p><input type="text" id="v1">
+		<p>Valor2:</p><input type="text" id="v2">
+		<p>Operador:</p>
+				<div id="operate">
+					<button value="add" class="botao" onclick="setOp(this)">+</button>
+					<button value="min" class="botao" onclick="setOp(this)">-</button>
+					<button value="div" class="botao" onclick="setOp(this)">/</button>
+					<button value="mul" class="botao" onclick="setOp(this)">*</button>
+			
+				</div>
+			<button type="button" onclick="igualA()" id="calcule" class="botao">=</button>
+	
+	<p id="results"></p>
 
 </div>
 

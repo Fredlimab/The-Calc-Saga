@@ -1,8 +1,14 @@
-function ladora() {
+var op;
+function setOp(button){
+	op = button.value;
+
+	console.log(op);
+}
+
+function igualA(){
 	var a = parseInt(document.querySelector("#v1").value);
 	var b = parseInt(document.querySelector("#v2").value);
-	var op = document.querySelector("#Operator").value;
-	var calculate;
+	var calculate
 
 	if (op == "add") {
 		calculate = a + b;
@@ -14,4 +20,4 @@ function ladora() {
 		calculate = a * b;
 	}
 	document.querySelector('#results').innerHTML = parseInt(calculate);
-}
+	}
