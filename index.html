@@ -19,13 +19,13 @@
 		<p>Valor2:</p><input type="text" id="v2">
 		<p>Operador:</p>
 				<div id="operate">
-					<button value="add" class="botao" onclick="setOp(this)">+</button>
-					<button value="min" class="botao" onclick="setOp(this)">-</button>
-					<button value="div" class="botao" onclick="setOp(this)">/</button>
-					<button value="mul" class="botao" onclick="setOp(this)">*</button>
+					<button value="add" class="botao" onclick="Calculadora.setOp(this)">+</button>
+					<button value="min" class="botao" onclick="Calculadora.setOp(this)">-</button>
+					<button value="div" class="botao" onclick="Calculadora.setOp(this)">/</button>
+					<button value="mul" class="botao" onclick="Calculadora.setOp(this)">*</button>
 			
 				</div>
-			<button type="button" onclick="igualA()" id="calcule" class="botao">=</button>
+			<button type="button" onclick="Calculadora.igualA()" id="calcule" class="botao">=</button>
 	
 	<p id="results"></p>
 
